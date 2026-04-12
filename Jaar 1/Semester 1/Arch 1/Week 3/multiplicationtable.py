@@ -1,0 +1,34 @@
+# In this exercise you will create a program that displays a multiplication table that shows the products of all combinations of integers from 1 times 1 up to and including 10 times 10.
+
+# Criteria:
+# Your multiplication table should include a row of labels across the top of it containing the numbers 1 through 10.
+# It should also include labels down the left side consisting of the numbers 1 through 10.
+# Input:
+# No input is given
+
+# Output example:
+#    1  2  3  4  5  6  7  8  9 10
+# 1  1  2  3  4  5  6  7  8  9 10
+# 2  2  4  6  8 10 12 14 16 18 20
+# ...
+
+
+def main():
+
+    for row_index in range(11):
+        if row_index == 0:
+            print(" ", end=" ")
+        else:
+            print(f"{row_index:<2}", end=" ")
+
+    print(" ")
+
+    for colomn_index in range(1, 11):
+        print(str(colomn_index), end=" ")
+        for row_index in range(1, 11):
+            print(f"{colomn_index * row_index:<2}", end=" ")
+        print(" ")
+
+
+if __name__ == "__main__":
+    main()

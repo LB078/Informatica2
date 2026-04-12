@@ -1,0 +1,46 @@
+Programmeren:
+	Lambda:
+		- Is een anonymous function
+		- Kan je gebruiken wanneer een functie niet vaker dan 1 keer gebruikt word
+		- Meestal gebruikt op filters, sorts en maps.
+		- "lambda x: <equation>
+		
+
+	If __name__ == "__main__":
+		- Word gebruikt om te voorkomen dat alle code (eventueel ongewenste) ge-execute word bij het laden van het bestand.
+		- Door te checken of __name__ "__main__" is, voorkom je dat
+		- __main__ is het hoofdbestand dat gedraaid wordt
+		- altijd het laatste in je document
+		
+	List comprehension:
+		- "[age for age in ages if age >= 18]" Filtert ages op aantallen die groter zijn dan 18
+		- Is sneller dan een uitgeschreven for loop aangezien minder pointers.
+		
+	Dict comprehension:
+		- "{key: value for key,value in student.items() if key != "id"}" creert een nieuwe dict maar dan zonder id.
+		
+	Nested data structures:
+		- Items apart van elkaar bekijken
+		
+		
+Gedeelte van Lotte:
+	Doelen moeten vanaf vandaag gedaan worden (21/10)
+	
+	Plan van Aanpak:
+		Leerdoelen staan in "Basecap cursushandleiding 2024-2025.pdf"
+		
+		Er moeten twee leerdoelen gekozen worden per arch.
+	
+	Peer evaluatie:
+		Verzamel:
+			- Feedback op handelen
+			
+		
+		
+Supporting topics Unit testing:
+	Format moet ingevult worden
+	
+	3 bronnen moeten gebruikt worden.
+	
+	
+TUSSENTIJDSE INLEVERDATUM DOSSIER: 8 november

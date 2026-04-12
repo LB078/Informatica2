@@ -1,0 +1,4 @@
+18-11-2024 11:20:46;cpm_name=North;license_plate=AA-BB-CC;action=check-in
+18-11-2024 11:21:05;cpm_name=North;license_plate=CC-BB-AA;action=check-in
+18-11-2024 11:21:40;cpm_name=North;license_plate=CC-BB-AA;action=check-out;parking_fee=2.5
+18-11-2024 19:45:48;cpm_name=North;license_plate=AA-BB-CC;action=check-out;parking_fee=22.5
